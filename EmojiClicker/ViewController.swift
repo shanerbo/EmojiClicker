@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Create dictionary of emoji icons
         var emojiDic : [String : String] = ["🇨🇳" : "China", "🇯🇵" :"Japan", "🇰🇷" : "Korea",  "🇹🇼" : "Taiwan"]
         var countryToLookUp = "🇹🇼"
-        var country = emojiDic[countryToLook]
+        var country = emojiDic[countryToLookUp]
         
         
         
