@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDU-Ec-bex">
-                                <rect key="frame" x="160.66666666666666" y="331" width="54" height="72"/>
+                                <rect key="frame" x="160.66666666666666" y="502" width="54" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🇯🇵"/>
                                 <connections>
@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqO-UW-6kO">
-                                <rect key="frame" x="160.66666666666666" y="251" width="54" height="72"/>
+                                <rect key="frame" x="160.66666666666666" y="422" width="54" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🇰🇷"/>
                                 <connections>
@@ -35,7 +35,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5m-hE-VuH">
-                                <rect key="frame" x="160.66666666666666" y="400" width="54" height="72"/>
+                                <rect key="frame" x="160.66666666666666" y="582" width="54" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🇹🇼"/>
                                 <connections>
@@ -43,7 +43,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUs-d5-PJg">
-                                <rect key="frame" x="160.66666666666666" y="171" width="54" height="72"/>
+                                <rect key="frame" x="160.66666666666666" y="342" width="54" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🇨🇳"/>
                                 <connections>
@@ -51,33 +51,51 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZa-OQ-3p0">
-                                <rect key="frame" x="160.66666666666666" y="480" width="54" height="72"/>
+                                <rect key="frame" x="160.66666666666666" y="651" width="54" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🇨🇦"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hgy-OP-Q5N"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select your prefer icon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nF6-N0-IYr">
-                                <rect key="frame" x="176" y="750" width="174" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select your icon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nF6-N0-IYr">
+                                <rect key="frame" x="227" y="750.66666666666663" width="123" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zVr-fF-ctC">
+                                <rect key="frame" x="111" y="44" width="153" height="40.666666666666664"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Erbo Country Picker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnH-CU-6hH">
+                                        <rect key="frame" x="0.0" y="0.0" width="153" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learning Flag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toQ-Si-MCA">
+                                        <rect key="frame" x="25" y="20.333333333333336" width="103" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="RZa-OQ-3p0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="110" id="0QD-QW-F8Q"/>
-                            <constraint firstItem="P5m-hE-VuH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="22f-aa-JRs"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nF6-N0-IYr" secondAttribute="bottom" constant="7" id="4a8-Vf-qwb"/>
+                            <constraint firstItem="RZa-OQ-3p0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="281" id="0QD-QW-F8Q"/>
+                            <constraint firstItem="P5m-hE-VuH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="212" id="22f-aa-JRs"/>
                             <constraint firstItem="mDU-Ec-bex" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6bT-oD-b2C"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nF6-N0-IYr" secondAttribute="trailing" constant="25" id="74F-fS-d5l"/>
                             <constraint firstItem="DUs-d5-PJg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AUq-WE-CWC"/>
                             <constraint firstItem="RZa-OQ-3p0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CbO-QQ-Ftn"/>
                             <constraint firstItem="P5m-hE-VuH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ch8-MG-foU"/>
-                            <constraint firstItem="mDU-Ec-bex" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-39" id="Dfg-lu-8Lk"/>
-                            <constraint firstItem="DUs-d5-PJg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-199" id="OFL-9w-KPc"/>
-                            <constraint firstItem="PqO-UW-6kO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-119" id="Qk5-BJ-uqz"/>
+                            <constraint firstItem="mDU-Ec-bex" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="132" id="Dfg-lu-8Lk"/>
+                            <constraint firstItem="DUs-d5-PJg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-28" id="OFL-9w-KPc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nF6-N0-IYr" secondAttribute="bottom" constant="7" id="OKp-4W-H3t"/>
+                            <constraint firstItem="PqO-UW-6kO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="52" id="Qk5-BJ-uqz"/>
                             <constraint firstItem="PqO-UW-6kO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QmC-V6-Rep"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
