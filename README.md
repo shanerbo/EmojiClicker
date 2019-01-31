@@ -16,6 +16,8 @@ iOS Development Demo
   
   ~~6. Designing UI Using Stack Views~~
   
+  ~~7. Introduction to Prototyping~~
+  
   #### Notes is in commits
   #### Summarize notes every weekend
 
