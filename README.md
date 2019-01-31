@@ -4,16 +4,19 @@ iOS Development Demo
   I follow tutorial in [appcode](https://www.appcoda.com/learnswift/) to create this app. 
   Chapter completed:
   
-  ~~The Development Tools, the Learning Approach, and the App Idea~~
+  ~~1. The Development Tools, the Learning Approach, and the App Idea~~
   
-  ~~Your First Taste of Swift with Playgrounds~~
+  ~~2. Your First Taste of Swift with Playgrounds~~
   
-  ~~Hello World! Build Your First App in Swift~~
+  ~~3. Hello World! Build Your First App in Swift~~
   
-  ~~Hello World App Explained~~
+  ~~4. Hello World App Explained~~
   
-  ~~Introduction to Auto Layout~~
+  ~~5. Introduction to Auto Layout~~
   
-  ~~Designing UI Using Stack Views~~
+  ~~6. Designing UI Using Stack Views~~
+  
+  #### Notes is in commits
+  #### Summarize notes every weekend
 
   
