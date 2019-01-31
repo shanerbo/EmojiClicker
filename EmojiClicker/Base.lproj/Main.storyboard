@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="ipad12_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmojiClicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDU-Ec-bex">
-                                <rect key="frame" x="160.66666666666666" y="502" width="54" height="72"/>
+                                <rect key="frame" x="485" y="779" width="54" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🇯🇵"/>
                                 <connections>
@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqO-UW-6kO">
-                                <rect key="frame" x="160.66666666666666" y="422" width="54" height="72"/>
+                                <rect key="frame" x="485" y="699" width="54" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🇰🇷"/>
                                 <connections>
@@ -35,7 +35,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5m-hE-VuH">
-                                <rect key="frame" x="160.66666666666666" y="582" width="54" height="72"/>
+                                <rect key="frame" x="485" y="859" width="54" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🇹🇼"/>
                                 <connections>
@@ -43,7 +43,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUs-d5-PJg">
-                                <rect key="frame" x="160.66666666666666" y="342" width="54" height="72"/>
+                                <rect key="frame" x="485" y="619" width="54" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🇨🇳"/>
                                 <connections>
@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZa-OQ-3p0">
-                                <rect key="frame" x="160.66666666666666" y="651" width="54" height="72"/>
+                                <rect key="frame" x="485" y="928" width="54" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="🇨🇦"/>
                                 <connections>
@@ -59,26 +59,25 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select your icon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nF6-N0-IYr">
-                                <rect key="frame" x="227" y="750.66666666666663" width="123" height="20.333333333333371"/>
+                                <rect key="frame" x="876" y="1338.5" width="123" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="lug-xf-RTe">
-                                <rect key="frame" x="11" y="43.999999999999986" width="353.33333333333331" height="213.66666666666666"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="lug-xf-RTe">
+                                <rect key="frame" x="11.5" y="20" width="1002.5" height="213.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zVr-fF-ctC">
-                                        <rect key="frame" x="100" y="0.0" width="153" height="40.666666666666664"/>
+                                        <rect key="frame" x="425" y="0.0" width="153" height="40.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Erbo Country Picker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnH-CU-6hH">
-                                                <rect key="frame" x="0.0" y="0.0" width="153" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="153" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learning Flag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toQ-Si-MCA">
-                                                <rect key="frame" x="25" y="20.333333333333336" width="103" height="20.333333333333336"/>
+                                                <rect key="frame" x="25" y="20.5" width="103" height="20"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -86,22 +85,22 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="dP9-KM-4uV">
-                                        <rect key="frame" x="0.0" y="74.666666666666686" width="353.33333333333331" height="139"/>
+                                        <rect key="frame" x="324.5" y="74.5" width="353.5" height="139"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user1" translatesAutoresizingMaskIntoConstraints="NO" id="UWh-2X-BkT">
-                                                <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="139"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="104" height="139"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="UWh-2X-BkT" secondAttribute="height" multiplier="50:67" id="UHZ-6v-m6z"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user2" translatesAutoresizingMaskIntoConstraints="NO" id="Out-5M-MtT">
-                                                <rect key="frame" x="124.66666666666666" y="0.0" width="103.66666666666666" height="139"/>
+                                                <rect key="frame" x="125" y="0.0" width="103.5" height="139"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Out-5M-MtT" secondAttribute="height" multiplier="50:67" id="iTu-oy-Owj"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user3" translatesAutoresizingMaskIntoConstraints="NO" id="U3o-PC-h8Q">
-                                                <rect key="frame" x="249.33333333333337" y="0.0" width="104" height="139"/>
+                                                <rect key="frame" x="249.5" y="0.0" width="104" height="139"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="U3o-PC-h8Q" secondAttribute="height" multiplier="50:67" id="uMu-ia-4pl"/>
                                                 </constraints>
@@ -115,9 +114,11 @@
                         <constraints>
                             <constraint firstItem="RZa-OQ-3p0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="281" id="0QD-QW-F8Q"/>
                             <constraint firstItem="P5m-hE-VuH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="212" id="22f-aa-JRs"/>
+                            <constraint firstItem="lug-xf-RTe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="11.666666666666657" id="5So-0y-FcB"/>
                             <constraint firstItem="mDU-Ec-bex" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6bT-oD-b2C"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nF6-N0-IYr" secondAttribute="trailing" constant="25" id="74F-fS-d5l"/>
                             <constraint firstItem="DUs-d5-PJg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AUq-WE-CWC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="lug-xf-RTe" secondAttribute="top" constant="1.4210854715202004e-14" id="B7d-mJ-s3O"/>
                             <constraint firstItem="RZa-OQ-3p0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CbO-QQ-Ftn"/>
                             <constraint firstItem="P5m-hE-VuH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ch8-MG-foU"/>
                             <constraint firstItem="mDU-Ec-bex" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="132" id="Dfg-lu-8Lk"/>
@@ -125,6 +126,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nF6-N0-IYr" secondAttribute="bottom" constant="7" id="OKp-4W-H3t"/>
                             <constraint firstItem="PqO-UW-6kO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="52" id="Qk5-BJ-uqz"/>
                             <constraint firstItem="PqO-UW-6kO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QmC-V6-Rep"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lug-xf-RTe" secondAttribute="trailing" constant="10" id="ayQ-Ki-Bsh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lug-xf-RTe" secondAttribute="trailing" constant="10" id="hwr-JJ-XDO"/>
+                            <constraint firstItem="dP9-KM-4uV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74.666666666666671" id="maz-0Y-afd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
