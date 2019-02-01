@@ -8,34 +8,45 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+//class ViewController: UIViewController {
+//
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view, typically from a nib.
+//
+//    }
+//    @IBAction func showMessage(sender: UIButton){
+//        // Create dictionary of emoji icons
+//        var emojiDic : [String : String] = ["🇨🇳" : "China",
+//                                            "🇯🇵" :"Japan",
+//                                            "🇰🇷" : "Korea",
+//                                            "🇹🇼" : "Taiwan",
+//                                            "🇨🇦" : "Canada"]
+//        //var countryToLookUp = "🇹🇼"//
+//        //var country = emojiDic[countryToLookUp]//
+//        var country: String?
+//        let selectButton = sender
+//        if let countryToLookUp = selectButton.titleLabel?.text{
+//            country = emojiDic[countryToLookUp]
+//        }
+//
+//
+//        let alertController = UIAlertController(title: "Country", message: country, preferredStyle: UIAlertController.Style.alert)
+//        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+//        present(alertController, animated: true, completion: nil)
+//
+//    }
+//
+//}
+class CheckListViewController: UITableViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
     }
-    @IBAction func showMessage(sender: UIButton){
-        // Create dictionary of emoji icons
-        var emojiDic : [String : String] = ["🇨🇳" : "China",
-                                            "🇯🇵" :"Japan",
-                                            "🇰🇷" : "Korea",
-                                            "🇹🇼" : "Taiwan",
-                                            "🇨🇦" : "Canada"]
-        //var countryToLookUp = "🇹🇼"//
-        //var country = emojiDic[countryToLookUp]//
-        var country: String?
-        let selectButton = sender
-        if let countryToLookUp = selectButton.titleLabel?.text{
-            country = emojiDic[countryToLookUp]
-        }
-        
-        
-        let alertController = UIAlertController(title: "Country", message: country, preferredStyle: UIAlertController.Style.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-        present(alertController, animated: true, completion: nil)
-        
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
     }
-
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        <#code#>
+    }
 }
 
