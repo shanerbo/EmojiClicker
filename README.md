@@ -18,6 +18,8 @@ iOS Development Demo
   
   ~~7. Introduction to Prototyping~~
   
+  ~~8. Table View Controller~~
+  
   #### Notes is in commits
   #### Summarize notes every weekend
 
