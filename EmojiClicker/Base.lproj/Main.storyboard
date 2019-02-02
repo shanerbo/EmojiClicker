@@ -152,6 +152,20 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0lq-Xo-cci" id="9PR-tQ-9dI">
                                     <rect key="frame" x="0.0" y="0.0" width="335" height="43.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xq7-nS-i5G">
+                                            <rect key="frame" x="36" y="11" width="236" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Xq7-nS-i5G" firstAttribute="leading" secondItem="9PR-tQ-9dI" secondAttribute="leading" constant="36" id="5eE-Od-dpx"/>
+                                        <constraint firstItem="Xq7-nS-i5G" firstAttribute="top" secondItem="9PR-tQ-9dI" secondAttribute="top" constant="11" id="IlF-TM-yA8"/>
+                                        <constraint firstAttribute="trailing" secondItem="Xq7-nS-i5G" secondAttribute="trailing" constant="63" id="MC5-hg-Xiv"/>
+                                        <constraint firstAttribute="bottom" secondItem="Xq7-nS-i5G" secondAttribute="bottom" constant="11.666666666666664" id="T0y-zB-HxI"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <accessibility key="accessibilityConfiguration" identifier="ChecklistItem"/>
                             </tableViewCell>
