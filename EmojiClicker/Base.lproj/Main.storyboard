@@ -153,18 +153,26 @@
                                     <rect key="frame" x="0.0" y="0.0" width="335" height="43.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Hello World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xq7-nS-i5G">
-                                            <rect key="frame" x="36" y="11" width="236" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Hello World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xq7-nS-i5G">
+                                            <rect key="frame" x="174" y="11" width="98" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user1" translatesAutoresizingMaskIntoConstraints="NO" id="9uP-JB-3Wa">
+                                            <rect key="frame" x="27" y="2" width="39" height="39"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="9uP-JB-3Wa" secondAttribute="height" multiplier="1:1" id="xUc-Cw-n2P"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="Xq7-nS-i5G" firstAttribute="leading" secondItem="9PR-tQ-9dI" secondAttribute="leading" constant="36" id="5eE-Od-dpx"/>
                                         <constraint firstItem="Xq7-nS-i5G" firstAttribute="top" secondItem="9PR-tQ-9dI" secondAttribute="top" constant="11" id="IlF-TM-yA8"/>
                                         <constraint firstAttribute="trailing" secondItem="Xq7-nS-i5G" secondAttribute="trailing" constant="63" id="MC5-hg-Xiv"/>
+                                        <constraint firstItem="9uP-JB-3Wa" firstAttribute="centerY" secondItem="Xq7-nS-i5G" secondAttribute="centerY" id="QzO-1j-iHB"/>
                                         <constraint firstAttribute="bottom" secondItem="Xq7-nS-i5G" secondAttribute="bottom" constant="11.666666666666664" id="T0y-zB-HxI"/>
+                                        <constraint firstItem="9uP-JB-3Wa" firstAttribute="leading" secondItem="9PR-tQ-9dI" secondAttribute="leadingMargin" constant="11" id="Vlf-PD-JeO"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="9uP-JB-3Wa" secondAttribute="bottom" constant="-8" id="v9I-FD-JSV"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <accessibility key="accessibilityConfiguration" identifier="ChecklistItem"/>
